@@ -1,6 +1,6 @@
 // create a function and following the progressions inside the function.
 let array = [];
-
+btnGet.onclick = function(){
 function getData() {
   const getMessage = document.getElementById('message');
 
@@ -50,3 +50,4 @@ function getData() {
     });
 }
 getData();
+};
